@@ -1,6 +1,6 @@
 {
-    "name": "adamwathan/laravel-preset",
-    "description": "Adam Wathan's Laravel Frontend Preset",
+    "name": "jaxonf92/laravel-preset",
+    "description": "Jackson Frankland's Laravel Frontend Preset",
     "keywords": ["laravel", "preset"],
     "license": "MIT",
     "require": {
@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NothingWorks\\LaravelPreset\\PresetServiceProvider"
+                "JacksonFrankland\\LaravelPreset\\PresetServiceProvider"
             ]
         }
     }

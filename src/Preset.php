@@ -1,6 +1,6 @@
 <?php
 
-namespace NothingWorks\LaravelPreset;
+namespace JacksonFrankland\LaravelPreset;
 
 use Illuminate\Support\Arr;
 use Illuminate\Container\Container;
@@ -28,6 +28,7 @@ class Preset extends BasePreset
             'postcss-nesting' => '^5.0.0',
             'postcss-import' => '^11.1.0',
             'tailwindcss' => '>=0.5.3',
+            'laravel-mix-tailwind' => '^0.1.0',
         ], Arr::except($packages, [
             'bootstrap',
             'bootstrap-sass',
